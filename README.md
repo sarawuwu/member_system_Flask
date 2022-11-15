@@ -1,24 +1,19 @@
 # 簡易會員系統(註冊、登入、登出、改密碼)
 
 
-# database connect
-
 import pymongo
 client = pymongo.MongoClient("mongodb+srv://帳號:密碼@mycluster.6wtnc1a.mongodb.net/?retryWrites=true&w=majority")
 db=client.my_member_system
 
 print("資料庫練線成功")
 
-import json
 
-# 初始化 Flask伺服器
 from flask import *
 app=Flask(
     __name__,static_folder="static",static_url_path="/" )
 
 app.secret_key="any string but secret!"  
 
-# 處理路由
 
 @app.route("/")
 def index():
