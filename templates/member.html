@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>會員頁面</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div class="head">
+        <p><h2>歡迎光臨會員頁面</h2></p>
+    </div>
+    <hr>
+
+    <br>
+    <br>
+
+    <div class="text">
+        您好，{{session["nickname"]}}，很高興見到您
+
+    </div>
+    <div style="text-align:right;font-size: 25px;"><a href="/signout">會員登出</a></div>
+</body>
+</html>

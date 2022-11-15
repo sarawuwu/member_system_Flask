@@ -1,0 +1,54 @@
+.head {
+  position: relative;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(247, 244, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+}
+.body {
+  position: relative;
+  height: max-content;
+  width: max-content;
+  justify-content: center;
+  background-color: rgb(141, 124, 16);
+  top: 50%;  
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign_in {
+  position: relative;
+  float: left;
+  height: 500px;
+  width: 300px;
+  justify-content: center;
+  color: purple;
+
+
+}
+
+.sign_up {
+  position: relative;
+  float: left;
+  height: 500px;
+  width: 300px;
+  justify-content: center;
+  color: purple;
+
+
+}
+
+.text{
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:purple;
+    display: flex;
+    align-items: center;
+ 
+
+}

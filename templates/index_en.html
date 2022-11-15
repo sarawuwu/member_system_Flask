@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="head">
+      <p><h2>Hello!! Wellcome to the Member System!</h2></p>
+      
+    </div>
+    <hr>
+
+    <div class="body">
+
+      <div class="sign_in">
+        <h3>Sing Up</h3>
+        <form action="/signup" method="post">
+            Nickname : <input type="text" name="nickname"><br>
+            Gender : <input type="radio" name="gender" value="women"><lable for="women">Femal</lable><input type="radio" name="sex" value="men"><lable for="men">Male</lable><br>
+            Birthday : <input type="date" name="birthday" placeholder="2014-09-18"><br>
+            E-mail : <input type="text" name="email"><br>
+            Password :  <input type="password" name="password"><br>
+            <br>
+            <button>Signup</button>
+        
+        </form></div>
+    
+    
+    <div class="sign_up">
+        <h3>Sing In</h3>
+        <form action="/signin" method="post">
+            e-mail : <input type="text" name="email"><br>
+            password : <input type="password" name="password"><br>
+            <br>
+            <button>Signin</button> <button formaction="/changemail" formmethod="post">Forget Password</button>
+        </form></div>
+
+
+    </div>
+
+
+
+     
+
+
+
+    
+
+
+  </body>
+</html>

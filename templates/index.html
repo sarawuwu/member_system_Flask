@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首頁</title>
+    <link rel="stylesheet" href="../index.css" />
+  </head>
+  <body>
+    <div class="head">
+      <p><h2>你好!! 歡迎光臨會員系統</h2></p>
+      
+    </div>
+    <hr>
+
+    <div class="body">
+        <div class="sign_up">
+            <h3>會員註冊</h3>
+            <form action="/signup" method="post">
+                暱稱 : <input type="text" name="nickname"><br>
+                性別 : <input type="radio" name="gender" value="women"><lable for="women">女生</lable><input type="radio" name="sex" value="men"><lable for="men">男生</lable><br>
+                生日 : <input type="date" name="birthday" placeholder="2014-09-18"><br>
+                信箱 : <input type="text" name="email"><br>
+                密碼 : <input type="password" name="password"><br>
+                <br>
+                <button>註冊</button>
+            
+            </form></div>
+        
+        
+        <div class="sign_in">
+            <h3>會員登入</h3>
+            <form action="/signin" method="post">
+                信箱 : <input type="text" name="email"><br>
+                密碼 : <input type="password" name="password"><br>
+                <br>
+                <button>登入</button> <button formaction="/changemail" formmethod="post">忘記密碼</button>
+            </form>
+
+  
+        
+        
+        </div>
+
+
+            
+
+
+    </div>
+
+
+  </body>
+</html>
